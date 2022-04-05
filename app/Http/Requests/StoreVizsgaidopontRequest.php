@@ -26,7 +26,7 @@ class StoreVizsgaidopontRequest extends FormRequest
         return [
             'targy' => 'required|string',
             'tipus' => 'required|string|in:erettsegi,szakmai',
-            'kezdes' => 'required|date_format:Y-m-d H:i:s'
+            'kezdes' => 'required|date'
         ];
     }
 }
